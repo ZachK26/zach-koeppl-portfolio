@@ -18,22 +18,23 @@ h2{
     padding-top: 1%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin-top: auto;
     text-align: center;
     flex-direction: column;
 }
-#photoreference{
+.photoreference{
     padding-top: 3%;
     display: flex;
     align-items: center;
-    justify-content: center;
     text-align: center;
     flex-direction: column;
     padding:2%;
+    width:30vh;
 }
-#photo{
-        width: 300px;
-        height: 300px;
+
+.photo{
+        width: 40vh;
+        height: 40vh;
         object-fit: contain;
     border: 2px;
 }
@@ -41,9 +42,9 @@ h2{
     padding-top: 2%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 body{
     font-family: 'Nunito', sans-serif;
@@ -51,5 +52,4 @@ body{
     background-color: rgb(3, 0, 29);
 }
 p{
-    width:300px;
 }
