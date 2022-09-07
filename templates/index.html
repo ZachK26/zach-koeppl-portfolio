@@ -7,8 +7,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="static/styles.css">
+    <script src="static/main.js"></script>
 </head>
 <body>
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a href='http://'>Home</a></li>
+          <li><a class='dropdown-arrow' href='http://'>Socials</a>
+            <ul class='sub-menus'>
+              <li><a href='https://www.linkedin.com/in/zachary-koeppl-71436420b'>LinkedIn</a></li>
+              <li><a href='http://https://github.com/ZachK26'>Github</a></li>
+              <li><a href='https://stackoverflow.com/users/13867033/mysts'>stackoverflow</a></li>
+            </ul>
+          </li>
+          <li><a href='http://'>Contact Me</a></li>
+        </ul>
+      </nav>
 <div id = "titlediv">
     <h1>Zachary Koeppl</h1>
     <h2>Web Developer</h2>    
@@ -17,6 +32,27 @@
     <h2>Here are some of my projects.</h2>
 </div>
 <div id="projectscontainer">
+    <div class = 'photoreference'>
+        <image class = 'photo' src = 'static/1.png'></image>
+        <p>mystic encryption</p>
+        <p>A flask application that encrypts any message you put into it with a unique key that is generated when you create your account.
+            It uses SQL to create queries that allow you to register an account, login, and obtain your encryption key.
+        </p>
+    </div>
+    <div class = 'photoreference'>
+        <image class = 'photo' src = 'static/1.png'></image>
+        <p>mystic inventory manager</p>
+        <p>A flask application that stores inventory data for any product you would want to keep track of. Each account gets one inventory table created when you register.
+            it uses sql queries to pull information from the table and also store new information that is input by the user.
+        </p>
+    </div>
+    <div class = 'photoreference'>
+        <image class = 'photo' src = 'static/1.png'></image>
+        <p>Mystic Stock Checker</p>
+        <p>A work in progress stock checker that will check the stock of graphics cards on the best buy website. When it discovers that a card is in stock it will send a notification
+            to a discord server. It also has the capability to send an email notification to an email list which you can add yourself to once you are in the server.
+        </p>
+    </div>
     <div class = 'photoreference'>
         <image class = 'photo' src = 'static/1.png'></image>
         <p>mystic encryption</p>
