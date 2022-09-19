@@ -5,7 +5,7 @@
     text-align: center;
     flex-direction: column;
     padding:4%;
-    background-image: linear-gradient(rgb(0, 9, 61), rgba(0, 9, 61, 0.5));
+
     border-radius: 2%;
 }
 h1{
@@ -21,6 +21,10 @@ h2{
     margin-top: auto;
     text-align: center;
     flex-direction: column;
+	background-color: #2F2C48;
+	border-top-right-radius: 25px ;
+	border-top-left-radius: 25px ;
+	width: 80%;
 }
 .photoreference{
     padding-top: 3%;
@@ -29,7 +33,7 @@ h2{
     text-align: center;
     flex-direction: column;
     padding:3%;
-    width:30vh;
+    width:30%;
 }
 
 .photo{
@@ -39,17 +43,23 @@ h2{
     border: 2px;
 }
 #projectscontainer{
+	width: 80%;
+	margin: 10% auto;
     padding-top: 2%;
     display: flex;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+	background-color: #24213B;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+
 }
 body{
     font-family: 'Nunito', sans-serif;
     color: white;
-    background-color: rgb(3, 0, 29);
+    background-color: #161427
 }
 #menu {
 	background: #00171F;
@@ -155,7 +165,7 @@ body{
     align-items: center;
     text-align: center;
 	flex-direction: column;
-    background-image: linear-gradient(rgb(0, 9, 61, 0.4), rgba(0, 9, 61, 0.4));
+    background-color: #24213B;
 	margin-top: 3%;
 }
 .otherSectionsST{
@@ -176,6 +186,14 @@ body{
 	font-size: 16px;
 	margin: 4px 2px;
 	cursor: pointer;
-	height: 20%;
-	width:20%;
+	height: 15%;
+	width:50%;
+	border-radius: 5px;
+  }
+  .projectscontainerc{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin:0;
   }
