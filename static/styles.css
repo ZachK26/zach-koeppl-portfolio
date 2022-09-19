@@ -182,7 +182,7 @@ body{
     align-items: center;
     text-align: center;
 	width:60%;
-	flex-direction: column;
+	flex-direction: row;
 }
 .button {
 	border: none;
