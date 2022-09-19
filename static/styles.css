@@ -163,7 +163,6 @@ body{
 	padding: 3%;
 }
 .otherSectionsSTContainer{
-	width:80%;
 	justify-content: center;
 	display: flex;
     align-items: center;
@@ -171,7 +170,7 @@ body{
 	flex-direction: column;
     background-color: #24213B;
 	margin-top: 3%;
-	width: 80%;
+	width: 40%;
 	margin: 10% auto;
 	margin-bottom: 5%;
 	margin-top: 0;
@@ -224,4 +223,5 @@ body{
 #stcontainer{
 	flex:auto;
 	flex-direction: row;
+	align-items: center;
 }
