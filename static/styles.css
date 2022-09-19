@@ -24,7 +24,7 @@ h2{
 	background-color: #2F2C48;
 	border-top-right-radius: 25px ;
 	border-top-left-radius: 25px ;
-	width: 80%;
+	width: 75%;
 	margin: 10% auto;
 	margin-bottom: 0;
 	margin-top: 0;
@@ -37,16 +37,17 @@ h2{
     flex-direction: column;
     padding:3%;
     width:30%;
+	height:40%;
 }
 
 .photo{
         width: 40vh;
-        height: 40vh;
+        height: 20vh;
         object-fit: contain;
     border: 2px;
 }
 #projectscontainer{
-	width: 80%;
+	width: 75%;
 	margin: 10% auto;
 	margin-top: 0;
     padding-top: 2%;
