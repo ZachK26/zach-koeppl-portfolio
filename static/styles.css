@@ -25,6 +25,9 @@ h2{
 	border-top-right-radius: 25px ;
 	border-top-left-radius: 25px ;
 	width: 80%;
+	margin: 10% auto;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 .photoreference{
     padding-top: 3%;
@@ -45,6 +48,7 @@ h2{
 #projectscontainer{
 	width: 80%;
 	margin: 10% auto;
+	margin-top: 0;
     padding-top: 2%;
     display: flex;
     align-items: center;
@@ -159,7 +163,7 @@ body{
 	padding: 3%;
 }
 .otherSectionsSTContainer{
-	width:100%;
+	width:80%;
 	justify-content: center;
 	display: flex;
     align-items: center;
@@ -167,6 +171,10 @@ body{
 	flex-direction: column;
     background-color: #24213B;
 	margin-top: 3%;
+	width: 80%;
+	margin: 10% auto;
+	margin-bottom: 5%;
+	margin-top: 0;
 }
 .otherSectionsST{
 	font-size: 2vh;
@@ -197,3 +205,23 @@ body{
 	text-align: center;
 	margin:0;
   }
+#sttitles{
+	width:100%;
+	padding-top: 1%;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    text-align: center;
+    flex-direction: column;
+	background-color: #2F2C48;
+	border-top-right-radius: 25px ;
+	border-top-left-radius: 25px ;
+	margin: 10% auto;
+	margin-bottom: 0;
+	margin-top: 0;
+	height: 30%;
+}
+#stcontainer{
+	flex:auto;
+	flex-direction: row;
+}
