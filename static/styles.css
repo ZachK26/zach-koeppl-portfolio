@@ -190,8 +190,9 @@ body{
     text-align: center;
 	width:80%;
 	flex-direction: row;
-	height:100%;
-	margin:5%;
+	height: fit-content;
+	block-size: fit-content;
+	
 }
 .button {
 	border: none;
@@ -229,10 +230,14 @@ body{
 	margin-top: 0;
 	height: 5vh;
 	vertical-align: top;
+	height: fit-content;
+	block-size: fit-content;
 }
 #stcontainer{
-	width:100%;
+	width:80%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+	height:100vh;
+	margin: 10% auto;
 }
