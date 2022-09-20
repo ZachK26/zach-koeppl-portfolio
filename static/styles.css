@@ -166,24 +166,32 @@ body{
 .otherSectionsSTContainer{
 	justify-content: center;
 	display: flex;
-    align-items: center;
     text-align: center;
 	flex-direction: row;
     background-color: #24213B;
-	margin-top: 3%;
 	width: 40%;
-	margin: 10% auto;
+	margin: 0 auto;
 	margin-bottom: 5%;
 	margin-top: 0;
 	flex-wrap: wrap;
+	vertical-align: top;
+	height: fit-content;
+	block-size: fit-content;
+	border-top-right-radius: 25px ;
+	border-top-left-radius: 25px ;
+	border-bottom-right-radius: 25px ;
+	border-bottom-left-radius: 25px ;
+
 }
 .otherSectionsST{
 	font-size: 2vh;
 	display: flex;
     align-items: center;
     text-align: center;
-	width:60%;
+	width:80%;
 	flex-direction: row;
+	height:100%;
+	margin:5%;
 }
 .button {
 	border: none;
@@ -219,7 +227,7 @@ body{
 	margin: 10% auto;
 	margin-bottom: 0;
 	margin-top: 0;
-	height: 30%;
+	height: 5vh;
 	vertical-align: top;
 }
 #stcontainer{
