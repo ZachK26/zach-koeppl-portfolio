@@ -220,6 +220,7 @@ body{
 	margin-bottom: 0;
 	margin-top: 0;
 	height: 30%;
+	vertical-align: top;
 }
 #stcontainer{
 	width:100%;
