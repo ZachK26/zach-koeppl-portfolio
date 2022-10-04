@@ -196,7 +196,7 @@ body{
 }
 .button {
 	border: none;
-	color: white;
+	color:white;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
@@ -207,6 +207,7 @@ body{
 	height: 15%;
 	width:50%;
 	border-radius: 5px;
+	background-color: #7c40d7;
   }
   .projectscontainerc{
 	width: 100%;
