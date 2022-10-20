@@ -18,12 +18,10 @@ h2{
 #projectstitle{
     padding-top: 1%;
     display: flex;
-    align-items: center;
     margin-top: auto;
-	margin-left:4%;
     text-align: center;
     flex-direction: row;
-	background-color: #24213B;
+	background-color: #1B1A2F;
 	border-top-right-radius: 25px ;
 	border-top-left-radius: 25px ;
 	width: 75%;
@@ -32,12 +30,13 @@ h2{
 	margin-top: 0;
 }
 .photoreference{
-    padding-top: 3%;
     display: flex;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    padding:3%;
+    padding-left:3%;
+	padding-right:3%;
+	padding-bottom:3%;
     width:30%;
 	height:40%;
 }
@@ -52,20 +51,19 @@ h2{
 	width: 75%;
 	margin: 10% auto;
 	margin-top: 0;
-    padding-top: 2%;
     display: flex;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-	background-color: #24213B;
+	background-color: #1B1A2F;
 	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px;
 
 }
 body{
     font-family: 'Nunito', sans-serif;
-    color: white;
+    color: #86859D;
     background-color: #161427
 }
 #menu {
@@ -161,16 +159,12 @@ body{
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
 }
-.otherSections{
-	font-size: 5vh;
-	padding: 3%;
-}
 .otherSectionsSTContainer{
 	justify-content: center;
 	display: flex;
     text-align: center;
 	flex-direction: row;
-    background-color: #24213B;
+    background-color: #1B1A2F;
 	width: 100%;
 	margin: 0 auto;
 	margin-bottom: 5%;
@@ -190,10 +184,13 @@ body{
 	display: flex;
     align-items: center;
     text-align: center;
-	width:80%;
+	width:85%;
 	flex-direction: column;
 	height: fit-content;
 	block-size: fit-content;
+	text-align-last: left;
+	text-align:left;
+	padding-bottom:3%;
 	
 }
 .button {
@@ -220,12 +217,12 @@ body{
   }
 #sttitles{
 	width:100%;
-	padding-top: 1%;
+	padding-top: 2%;
     display: flex;
     align-items: center;
-    text-align: center;
-    flex-direction: column;
-	background-color: #2F2C48;
+    text-align: left;
+    flex-direction: row;
+	background-color: #1B1A2F;
 	border-top-right-radius: 25px ;
 	border-top-left-radius: 25px ;
 	margin: 10% auto;
@@ -235,6 +232,10 @@ body{
 	vertical-align: top;
 	height: fit-content;
 	block-size: fit-content;
+	text-align-last: right;
+	padding-left:10%;
+	padding-right:3%;
+	padding-bottom:2%;
 }
 #stcontainer{
 	width:80%;
@@ -244,5 +245,6 @@ body{
 	margin: 10% auto;
 }
 h3{
-font-size:20px;
+font-size:24px;
+margin-left: 17%;
 }
