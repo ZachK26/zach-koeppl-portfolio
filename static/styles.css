@@ -301,5 +301,22 @@ border-radius: 50%;
 
 }
 #gradientname{
-	background-image: linear-gradient(45deg, #f3ec78, #af4261);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 46%, rgba(255,255,255,1) 51%, rgba(124,68,188,1) 51%, rgba(245,159,122,1) 100%);
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+}
+.lensflare{
+	border-radius:50%;
+	height:1px;
+	width:1px;
+	box-shadow: -120px -80px 100px 100px rgba(124, 68, 188, 0.2);
+}
+.lensflare2{
+	border-radius:50%;
+	height:1px;
+	width:1px;
+	box-shadow: -120px -80px 100px 100px rgba(251, 213, 196, 0.2);
 }
