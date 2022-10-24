@@ -277,8 +277,23 @@ margin-left: 17%;
     align-items: center;
     flex-direction: row;
 	background-color: #1B1A2F;
+	max-height:15%;
+	
 }
 #mystbrandingfooter{
-height:10%;
-width:10%;
+height:5%;
+width:5%;
+border-radius: 50%;
+
+}
+#nameandpigcontainer{
+	margin:2%;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	block-size: fit-content;
+}
+#cccontainer{
+	flex-direction: column;
+
 }
