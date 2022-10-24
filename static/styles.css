@@ -272,3 +272,9 @@ margin-left: 17%;
 	box-shadow: 0px 0px 30px 10px rgba(255, 175, 123, 0.2);
 
 }
+#footercontainer{
+	display: flex;
+    align-items: center;
+    flex-direction: row;
+	background-color: #1B1A2F;
+}
