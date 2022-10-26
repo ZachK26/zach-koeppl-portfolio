@@ -18,18 +18,9 @@
 </head>
 <body style="font-family: 'Poppins', serif;">
     <nav id='menu'>
-        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
-        <ul>
-          <li><a href='#titlediv'>Home</a></li>
-          <li><a class='dropdown-arrow' href='#'>Socials</a>
-            <ul class='sub-menus'>
-              <li><a href='https://www.linkedin.com/in/zachary-koeppl-71436420b'>LinkedIn</a></li>
-              <li><a href='http://https://github.com/ZachK26'>Github</a></li>
-              <li><a href='https://stackoverflow.com/users/13867033/mysts'>stackoverflow</a></li>
-            </ul>
-          </li>
-          <li><a href='#contactme'>Contact Me</a></li>
-        </ul>
+      <a href = '#titleddiv'>Home</a>
+      <a href = '#aboutme'>About</a>
+      <a href = '#contactme'>Contact</a>
       </nav>
       <div class = 'fullbodycontainer'>
 <div id = "titlediv">
@@ -115,6 +106,7 @@
     </div>
     </div>
     </div>
+    <a id = 'aboutme'></a>
     <div id = 'stcontainer'>
       <div class = 'otherSectionsSTContainer'>
         <h3 id = 'sttitles' class = 'otherSections'>Hi, I'm Zach.</h3>
@@ -134,11 +126,13 @@
       </p>
   </div>
     <div class = 'otherSectionsSTContainer' id = 'contactme'>
+      <div class = 'buttonalignment'>
       <h3 id = 'sttitles' class = 'otherSections'>Contact Me</h3>
-      <button onclick="location.href='https://github.com/ZachK26/color-gen-website'" type="button" class = 'button contactButtons emailbutton'>Email Me!</button>
-      <button onclick="location.href='https://github.com/ZachK26/color-gen-website'" type="button" class = 'button contactButtons discordbutton'>Discord</button>
-      <button onclick="location.href='https://github.com/ZachK26/color-gen-website'" type="button" class = 'button contactButtons callbutton'>Call Me!</button>
+      <button onclick="location.href='mailto:zkoeppl@gmail.com'" type="button" class = 'button contactButtons emailbutton'>Email Me!</button>
+      <button onclick="location.href='https://discord.gg/Jf9PgcYnG6'" type="button" class = 'button contactButtons discordbutton'>Discord</button>
+      <button  type="button" class = 'button contactButtons callbutton'>847-804-2906</button>
     </div>
+  </div>
     <footer id = 'footercontainer'>
       <div id='nameandpigcontainer'>
       <img src = 'static/mystbranding.png' id = 'mystbrandingfooter'>
@@ -148,9 +142,15 @@
     </div>
     </div>
     <div id = 'leftmodifier'>
-      <input type="image" src="static/discord.png" name="saveForm" id = 'footerlogos' class="btTxt submit" />
-      <input type="image" src="static/github.png" name="saveForm" class="btTxt submit" id = 'footerlogos' />
-      <input type="image" src="static/linkedin.png" name="saveForm" class="btTxt submit" id = 'footerlogos' />
+      <a href = 'https://discord.gg/Jf9PgcYnG6'  id = 'footerlogoss' >
+      <input type="image" src="static/discord.png" name="saveForm" id = 'footerlogos' class="btTxt submit" style="font-family: 'Poppins', serif;"/>
+    </a>
+    <a href = 'https://github.com/ZachK26' id = 'footerlogoss' >
+      <input type="image" src="static/github.png" name="saveForm" class="btTxt submit" id = 'footerlogos' style="font-family: 'Poppins', serif;"/>
+      </a>
+      <a href = 'https://www.linkedin.com/in/zachary-koeppl-71436420b' id = 'footerlogoss' >
+      <input type="image" src="static/linkedin.png" name="saveForm" class="btTxt submit" id = 'footerlogos' style="font-family: 'Poppins', serif;"/>
+    </a>
     </div>
     </footer>
   </div>
