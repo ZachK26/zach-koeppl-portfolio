@@ -321,6 +321,24 @@ border-radius: 50%;
 	box-shadow: 170px -70px 100px 80px rgba(191, 80, 30, 0.2);
 }
 #footerlogos{
-	max-width: 30px;
-	max-height:30px
+	width: 30px;
+	height:30px;
+	flex-direction:row;
+	block-size: fit-content;
+	display: flex;
+	align-items: center;
+	margin:10%;
+	background-color: #22213C;
+	padding:20px;
+	border-radius: 10px;
+}
+#leftmodifier{
+	margin:2%;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	block-size: fit-content;
+	width:20%;
+	margin:8%;
+	margin-right:16%;
 }
