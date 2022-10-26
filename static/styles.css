@@ -320,3 +320,7 @@ border-radius: 50%;
 	width:1px;
 	box-shadow: 170px -70px 100px 80px rgba(191, 80, 30, 0.2);
 }
+#footerlogos{
+	max-width: 30px;
+	max-height:30px
+}
