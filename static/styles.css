@@ -285,8 +285,8 @@ border-radius: 50%;
 
 }
 #footerlogoss{
-	width: 5vh;
-	height:5vh;
+	width: 4vh;
+	height:4vh;
 	flex-direction:row;
 	block-size: fit-content;
 	display: flex;
