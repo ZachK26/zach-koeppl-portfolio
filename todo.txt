@@ -1,6 +1,0 @@
-Add pictures
-Delete extra projects
-Add footer to the page
-Finish Navbar
-Make buttons to access each repo of my projects
-Launch on github pages
